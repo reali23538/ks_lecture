@@ -22,7 +22,7 @@ lecture_seq (강연Seq. ForeignKey)
 employee_number (사번)  
 reg_date (등록일시)
 
-# swagger
+# swagger  
 [새 탭에서 열기](http://54.180.122.75:8081/swagger-ui/index.html){:target="_blank"}  
 
 # 기타 설명
