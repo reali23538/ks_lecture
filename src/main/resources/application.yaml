@@ -1,0 +1,27 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/ks_lecture?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+    username: ks_lecture_adm
+    password: 5gY7PIianDDNUQ4
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        connection:
+          privider_disables_autocommit: true
+
+constant:
+  common:
+    paging:
+      row-cnt-per-page: 5
+  lecture:
+    exposed:
+      before-day: -7
+      after-day: 1
+    popular:
+      standard-day: -3
