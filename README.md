@@ -26,6 +26,6 @@ reg_date (등록일시)
 '신청한 인원'에 대한 동시성 이슈는 배타적 락을 걸어서  
 데이터의 일관성을 유지하도록 처리 하였습니다  
 그리고 repository, service, controller별 단위 테스트를 작성하였고  
-동시성 테스트는 별도로 구성하였습니다 (ApplyConCurrencyTest.java)  
+동시성 테스트는 별도로 구성하였습니다 (ApplyConcurrencyTest.java)  
 DB, 유저, 권한부여, 테이블 생성 쿼리는 db.sql에 작성하였습니다.  
 감사합니다.
