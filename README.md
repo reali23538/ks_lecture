@@ -20,7 +20,10 @@ reg_date (등록일시)
 apply_seq (신청Seq. PrimaryKey)  
 lecture_seq (강연Seq. ForeignKey)  
 employee_number (사번)  
-reg_date (등록일시)  
+reg_date (등록일시)
+
+# swagger
+http://54.180.122.75:8081/swagger-ui/index.html
 
 # 기타 설명
 '신청한 인원'에 대한 동시성 이슈는 배타적 락을 걸어서  
