@@ -1,7 +1,7 @@
-# 개발 언어, 프레임워크, RDB, ORM, 빌드도구
+## 개발 언어, 프레임워크, RDB, ORM, 빌드도구
 JAVA(17), SpringFramework(SpringBoot 3.2.3), MySQL, JPA, Gradle
 
-# 데이터 설계
+## 데이터 설계
 강연(Lecture) 1 : N 신청(Apply)  
 1:N 양방향 관계
 
@@ -22,10 +22,10 @@ lecture_seq (강연Seq. ForeignKey)
 employee_number (사번)  
 reg_date (등록일시)
 
-# swagger  
+## swagger  
 [새 탭에서 열기](http://54.180.122.75:8081/swagger-ui/index.html){:target="_blank"}  
 
-# 기타 설명
+## 기타 설명
 '신청한 인원'에 대한 동시성 이슈는 배타적 락을 걸어서  
 데이터의 일관성을 유지하도록 처리 하였습니다  
 그리고 repository, service, controller별 단위 테스트를 작성하였고  
