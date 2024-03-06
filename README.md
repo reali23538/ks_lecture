@@ -2,7 +2,7 @@
 JAVA(17), SpringFramework(SpringBoot 3.2.3), MySQL, JPA, Gradle
 
 # 데이터 설계
-강연(Lecture) 1 : N 신청(Apply)
+강연(Lecture) 1 : N 신청(Apply)  
 1:N 양방향 관계
 
 [Lecture (강연)]  
