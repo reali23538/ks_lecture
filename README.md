@@ -34,4 +34,7 @@ JAVA(17), SpringFramework(SpringBoot 3.2.3), MySQL, JPA, Gradle
 
 
 DB, 유저, 권한부여, 테이블 생성 쿼리는 db.sql에 작성하였습니다.  
+Swagger(`http://localhost:8081/swagger-ui/index.html`)  
+
+
 감사합니다.
