@@ -26,9 +26,6 @@ JAVA(17), SpringFramework(SpringBoot 3.2.3), MySQL, JPA, Gradle
 |reg_date|등록일시|
 
 
-## swagger  
-[Swagger Link](http://54.180.122.75:8081/swagger-ui/index.html)
-
 ## 기타 설명
 '신청한 인원'에 대한 동시성 이슈는 배타적 락을 걸어서  
 데이터의 일관성을 유지하도록 처리 하였습니다  
